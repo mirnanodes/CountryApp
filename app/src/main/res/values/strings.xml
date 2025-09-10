@@ -1,0 +1,14 @@
+<resources>
+    <string-array name="provinces">
+        <item>Aceh</item>
+        <item>Bali</item>
+        <item>Banten</item>
+        <item>Bengkulu</item>
+        <item>Gorontalo</item>
+        <item>Jakarta</item>
+        <item>Jambi</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+    </string-array>
+</resources>
