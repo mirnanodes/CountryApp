@@ -106,6 +106,12 @@ TimePickerDialog.OnTimeSetListener {
             dialog.show()
         }
 
+        binding.btnShowTimePicker.setOnClickListener {
+            val timePicker = com.example.countryapp.TimePicker()
+            timePicker.show(supportFragmentManager, "timePicker")
+        }
+
+
         binding.btnShowCustomDialog.setOnClickListener {
             val dialog = DialogExit()
             dialog.show(supportFragmentManager, "dialogExit")
